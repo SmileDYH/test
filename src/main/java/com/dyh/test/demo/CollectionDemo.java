@@ -24,7 +24,7 @@ public class CollectionDemo {
         list.isEmpty();//判断是否为空
         System.out.println(list.isEmpty());
 
-        Queue
+//        Queue
     }
 
     private static void CollectionsTest(){
