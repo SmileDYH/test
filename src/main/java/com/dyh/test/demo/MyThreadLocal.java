@@ -2,6 +2,7 @@ package com.dyh.test.demo;
 
 import java.util.concurrent.ConcurrentHashMap;
 
+//记得加注解
 public class MyThreadLocal {
 
     private final ConcurrentHashMap<Thread, Object> valueMap = new ConcurrentHashMap<>();
