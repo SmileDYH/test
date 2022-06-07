@@ -1,8 +1,8 @@
 package com.dyh.test.demo;
 
 import com.alibaba.fastjson.JSON;
-import com.dyh.test.pojo.ExamScoreAvgDto;
-import com.dyh.test.pojo.ExamScoreDto;
+import com.dyh.test.model.pojo.ExamScoreAvgDto;
+import com.dyh.test.model.pojo.ExamScoreDto;
 
 /**
  * description:

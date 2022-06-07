@@ -1,4 +1,4 @@
-package com.dyh.test.module;
+package com.dyh.test.model;
 
 import com.alibaba.fastjson.annotation.JSONField;
 import lombok.AllArgsConstructor;

@@ -1,4 +1,4 @@
-package com.dyh.test.entity;
+package com.dyh.test.model.entity;
 
 import com.dyh.test.common.A;
 import com.dyh.test.common.B;

@@ -1,4 +1,4 @@
-package com.dyh.test.interfaces;
+package com.dyh.test.basics.interfaces;
 
 //一个有多个默认方法和静态方法的接口CommonInterface
 public interface CommonInterface {

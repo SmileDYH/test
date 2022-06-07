@@ -1,9 +1,8 @@
 package com.dyh.test.constant;
 
-import com.dyh.test.module.LevelSetBean;
+import com.dyh.test.model.LevelSetBean;
 import com.google.common.collect.Lists;
 
-import java.math.BigDecimal;
 import java.util.*;
 
 /**

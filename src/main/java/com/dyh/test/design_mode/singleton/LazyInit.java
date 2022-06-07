@@ -1,6 +1,6 @@
 package com.dyh.test.design_mode.singleton;
 
-import com.dyh.test.pojo.KAMBaseDto;
+import com.dyh.test.model.pojo.KAMBaseDto;
 
 /**
  * 单例模式，双重检验锁，

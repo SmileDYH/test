@@ -1,6 +1,6 @@
 package com.dyh.test.java8;
 
-import com.dyh.test.pojo.ExamScoreAvgDto;
+import com.dyh.test.model.pojo.ExamScoreAvgDto;
 
 import java.util.ArrayList;
 import java.util.HashMap;

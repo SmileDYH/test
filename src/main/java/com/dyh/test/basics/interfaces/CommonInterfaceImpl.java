@@ -1,4 +1,4 @@
-package com.dyh.test.interfaces;
+package com.dyh.test.basics.interfaces;
 
 /**
  * 1)静态方法可以直接调用，不能被重写

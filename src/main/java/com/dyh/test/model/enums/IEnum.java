@@ -1,4 +1,4 @@
-package com.dyh.test.enums;
+package com.dyh.test.model.enums;
 
 /**
  * description: dyh

@@ -1,4 +1,4 @@
-package com.dyh.test.interfaces;
+package com.dyh.test.basics.interfaces;
 
 //　一个跟上边一模一样的接口CommonInterface1
 public interface CommonInterface1 {

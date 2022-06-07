@@ -1,7 +1,6 @@
-package com.dyh.test.entity;
+package com.dyh.test.model.entity;
 
 import com.dyh.test.common.B;
-import com.sun.media.sound.SoftTuning;
 
 /**
  * 接口类实体

@@ -2,11 +2,11 @@ package com.dyh.test.demo;
 
 import com.alibaba.fastjson.JSONArray;
 import com.dyh.test.exception.LambdaException;
-import com.dyh.test.enums.SubjectCategoryEnum;
-import com.dyh.test.enums.TopicPackSubject;
-import com.dyh.test.pojo.ExamScoreAvgDto;
-import com.dyh.test.pojo.ExamScoreDto;
-import com.dyh.test.pojo.KAMBaseDto;
+import com.dyh.test.model.enums.SubjectCategoryEnum;
+import com.dyh.test.model.enums.TopicPackSubject;
+import com.dyh.test.model.pojo.ExamScoreAvgDto;
+import com.dyh.test.model.pojo.ExamScoreDto;
+import com.dyh.test.model.pojo.KAMBaseDto;
 import com.google.common.util.concurrent.AtomicDouble;
 
 import java.util.*;

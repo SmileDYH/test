@@ -1,4 +1,4 @@
-package com.dyh.test.interfaces;
+package com.dyh.test.basics.interfaces;
 
 /**
  * description:

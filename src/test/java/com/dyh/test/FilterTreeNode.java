@@ -1,7 +1,7 @@
 package com.dyh.test;
 
 import com.alibaba.fastjson.JSON;
-import com.dyh.test.tree.TreeNode;
+import com.dyh.test.algorithm_design.tree.TreeNode;
 import com.google.common.collect.Lists;
 import org.junit.Before;
 import org.junit.Test;

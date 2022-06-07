@@ -1,7 +1,7 @@
 package com.dyh.test.demo;
 
-import com.dyh.test.pojo.ExamScoreDto;
-import com.dyh.test.pojo.KAMBaseDto;
+import com.dyh.test.model.pojo.ExamScoreDto;
+import com.dyh.test.model.pojo.KAMBaseDto;
 
 import java.util.ArrayList;
 import java.util.List;

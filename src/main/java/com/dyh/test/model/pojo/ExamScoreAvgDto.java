@@ -1,4 +1,4 @@
-package com.dyh.test.pojo;
+package com.dyh.test.model.pojo;
 
 
 import lombok.AllArgsConstructor;

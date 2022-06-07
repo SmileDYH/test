@@ -1,7 +1,6 @@
-package com.dyh.test.interfaces;
+package com.dyh.test.basics.interfaces;
 
 //Java 8添加一个新的包"java.util.function"，通常用于lambda表达式和方法引用，包下有很多通用接口：
-import java.util.function.*;
 
 /**
  * 函数式接口(Functional Interface)是只有一个抽象方法的接口。

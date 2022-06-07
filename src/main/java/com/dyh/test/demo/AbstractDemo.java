@@ -1,7 +1,7 @@
 package com.dyh.test.demo;
 
-import com.dyh.test.entity.AbstractEntity;
-import com.dyh.test.entity.InterfaceEntity;
+import com.dyh.test.model.entity.AbstractEntity;
+import com.dyh.test.model.entity.InterfaceEntity;
 
 /**
  * 抽象的demo（抽象类和接口）
