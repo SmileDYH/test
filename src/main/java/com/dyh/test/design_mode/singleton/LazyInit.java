@@ -11,7 +11,7 @@ import com.dyh.test.model.pojo.KAMBaseDto;
 public class LazyInit {
 
 
-    private volatile KAMBaseDto resource;
+    private static volatile KAMBaseDto resource;
 
 
     public KAMBaseDto getResource() {
