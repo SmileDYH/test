@@ -1,4 +1,4 @@
-package com.dyh.test.abstract_class;
+package com.dyh.test.basics.abstracts;
 
 /**
  * description:抽象类demo
