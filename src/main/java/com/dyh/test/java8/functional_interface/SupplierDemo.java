@@ -5,5 +5,5 @@ package com.dyh.test.java8.functional_interface;
  * author: dyh
  * date: 2023/2/27 15:12
  */
-public class ConsumerDemo {
+public class SupplierDemo {
 }
