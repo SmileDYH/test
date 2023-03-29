@@ -1,4 +1,4 @@
-package com.dyh.test.java8.other;
+package com.dyh.test.java8.optional;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -22,7 +22,7 @@ public class OptionalDemo {
         Optional<Emp> op1 = Optional.ofNullable(null);
         System.out.println(op1.orElse(emp).getAddress());// 上海
         /*
-         * 这里指定了一个默认对象emp，为先创建的一个emp对象，emp对象里的成员变量还没有复制，所以输出为null
+         * 这里指定了一个默认对象emp，为先创建的一个emp对象，emp对象里的成员变量还没有赋值，所以输出为null
          */
         System.out.println(op1.orElseGet(Emp::new).getAddress());
         try {
