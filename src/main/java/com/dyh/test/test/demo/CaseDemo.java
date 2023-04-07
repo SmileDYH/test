@@ -51,5 +51,11 @@ public class CaseDemo {
         set.add(ques1);
         System.out.println(set.size());   // 2, 这两个不是一个对象，重写equals和hashCode后为 1
         System.out.println("----------------------");
+
+        //断言
+        int x = 1 ;
+        assert x > 0 : "成功";
+        assert x == 0: "失败";
+
     }
 }
