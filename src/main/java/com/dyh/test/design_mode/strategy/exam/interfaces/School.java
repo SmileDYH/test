@@ -1,5 +1,7 @@
 package com.dyh.test.design_mode.strategy.exam.interfaces;
 
+import java.util.List;
+
 /**
  * description:分组分校 接口
  * author: dyh
@@ -8,5 +10,5 @@ package com.dyh.test.design_mode.strategy.exam.interfaces;
 public interface School {
 
     //提供接口，获取学校下的学生
-    int accessSchool();
+    List<Integer> accessSchool();
 }

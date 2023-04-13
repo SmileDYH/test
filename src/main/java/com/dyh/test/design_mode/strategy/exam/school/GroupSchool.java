@@ -2,6 +2,9 @@ package com.dyh.test.design_mode.strategy.exam.school;
 
 import com.dyh.test.design_mode.strategy.exam.interfaces.School;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * description: 分组学校
  * author: dyh
@@ -10,8 +13,8 @@ import com.dyh.test.design_mode.strategy.exam.interfaces.School;
 public class GroupSchool implements School {
 
     @Override
-    public int accessSchool() {
+    public List<Integer> accessSchool() {
         System.out.println("获取分组学校...");
-        return 3;
+        return new ArrayList<>(3);
     }
 }

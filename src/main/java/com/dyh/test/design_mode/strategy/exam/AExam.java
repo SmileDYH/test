@@ -7,6 +7,7 @@ import com.dyh.test.design_mode.strategy.exam.mode.AverageMode;
 import com.dyh.test.design_mode.strategy.exam.review.SingleReview;
 import com.dyh.test.design_mode.strategy.exam.school.DefaultSchool;
 
+import java.util.List;
 import java.util.Map;
 
 /**
@@ -32,7 +33,7 @@ public class AExam extends Exam{
     }
 
     @Override
-    public int accessSchool() {
+    public List<Integer> accessSchool() {
        return school.accessSchool();
     }
 

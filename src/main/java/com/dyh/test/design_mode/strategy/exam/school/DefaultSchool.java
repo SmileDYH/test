@@ -2,6 +2,9 @@ package com.dyh.test.design_mode.strategy.exam.school;
 
 import com.dyh.test.design_mode.strategy.exam.interfaces.School;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * description: 默认学校
  * author: dyh
@@ -10,8 +13,8 @@ import com.dyh.test.design_mode.strategy.exam.interfaces.School;
 public class DefaultSchool implements School {
 
     @Override
-    public int accessSchool() {
+    public List<Integer> accessSchool() {
         System.out.println("获取所有学校...");
-        return 5;
+        return new ArrayList<>(5);
     }
 }

@@ -2,6 +2,9 @@ package com.dyh.test.design_mode.strategy.exam.school;
 
 import com.dyh.test.design_mode.strategy.exam.interfaces.School;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * description: 单校
  * author: dyh
@@ -10,8 +13,8 @@ import com.dyh.test.design_mode.strategy.exam.interfaces.School;
 public class SingleSchool implements School {
 
     @Override
-    public int accessSchool() {
+    public List<Integer> accessSchool() {
         System.out.println("获取单个学校...");
-        return 1;
+        return new ArrayList<>(1);
     }
 }

@@ -4,6 +4,7 @@ import com.dyh.test.design_mode.strategy.exam.interfaces.Mode;
 import com.dyh.test.design_mode.strategy.exam.interfaces.Review;
 import com.dyh.test.design_mode.strategy.exam.interfaces.School;
 
+import java.util.List;
 import java.util.Map;
 
 /**
@@ -29,7 +30,7 @@ public abstract class Exam {
     public Review review;
 
     //抽象方法
-    public abstract int accessSchool();
+    public abstract List<Integer> accessSchool();
     public abstract void allocation();
     public abstract Map<Integer, String> accessTeacher();
 
