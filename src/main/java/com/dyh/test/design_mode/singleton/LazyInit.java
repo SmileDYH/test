@@ -10,32 +10,20 @@ import com.dyh.test.model.pojo.KAMBaseDto;
  */
 public class LazyInit {
 
-
     private static volatile KAMBaseDto resource;
-
 
     public KAMBaseDto getResource() {
 
         KAMBaseDto result = resource;
 
         if (result == null) {
-
             synchronized (this) {
-
                  result = resource;
-
                 if (result == null) {
-
                     result = new KAMBaseDto();
-
                 }
-
             }
-
         }
-
         return result;
-
     }
-
 }

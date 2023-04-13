@@ -6,7 +6,7 @@ import com.google.common.collect.Lists;
 import java.util.*;
 
 /**
- * Description:
+ * Description: 静态工厂
  * Created by bq.ren on 2021/10/8.
  */
 public class ConfigConstant {

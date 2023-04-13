@@ -11,4 +11,9 @@ class XiaoChenShare extends ShareTemp{
     void shareContent() {
         System.out.println("2. 我今天分享的内容是变成规范之我见");
     }
+
+//    @Override
+//    public Boolean hookMethod(){
+//        return true;
+//    }
 }

@@ -1,4 +1,4 @@
-package com.dyh.test.java8.functional_interface;
+package com.dyh.test.java8.functional_interface.demo;
 
 import java.util.HashMap;
 import java.util.function.BiConsumer;

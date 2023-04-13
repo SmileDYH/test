@@ -21,6 +21,9 @@ public class StreamDemo {
         reduce();
         //collect 收集器操作[聚合操作]：可以当做是一种更高级的归约操作；
         collect();
+
+        //sorted排序
+        sorted();
     }
 
     /**
@@ -141,5 +144,24 @@ public class StreamDemo {
         public String toString() {
             return "Emp [address=" + address + ", name=" + name + ", age=" + age + "]";
         }
+    }
+
+    /**
+     * stream流排序
+     */
+    static void sorted(){
+        ///单字段排序
+        //根据age进行排序——升序排序
+        list = list.stream().sorted(Comparator.comparing(Emp::getAge)).collect(Collectors.toList());
+        //根据age进行排序——降序排序
+        list = list.stream().sorted(Comparator.comparing(Emp::getAge).reversed()).collect(Collectors.toList());
+
+        ///多字段排序
+        //根据age及name进行 联合升序排序
+        list = list.stream().sorted(Comparator.comparing(Emp::getAge).thenComparing(Emp::getName)).collect(Collectors.toList());
+        //下面两个结果都是以age降序name升序排序的结果，但是查询方式不同
+        list =  list.stream().sorted(Comparator.comparing(Emp::getAge).reversed().thenComparing(Emp::getName)).collect(Collectors.toList());
+        // **推荐使用该种方式**
+        list =  list.stream().sorted(Comparator.comparing(Emp::getAge,Comparator.reverseOrder()).thenComparing(Emp::getName)).collect(Collectors.toList());
     }
 }

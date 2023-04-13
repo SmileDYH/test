@@ -6,6 +6,11 @@ import java.util.List;
 
 /**
  * 知识点、能力、方法等的基础数据信息
+ *
+ * Object的clone()方法是浅拷贝，需要重写，并且只有实现了Cloneable才可以调用该方法
+ *
+ * clone() 方法并不是 Cloneable 接口的方法，而是 Object 的一个 protected 方法。
+ * Cloneable 接口只是规定，如果一个类没有实现 Cloneable 接口又调用了 clone() 方法，就会抛出 CloneNotSupportedException。
  */
 
 public class KAMBaseDto implements Serializable,Cloneable {

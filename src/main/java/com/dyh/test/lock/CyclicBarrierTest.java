@@ -1,4 +1,4 @@
-package com.dyh.test.demo;
+package com.dyh.test.lock;
 
 import java.util.concurrent.BrokenBarrierException;
 import java.util.concurrent.CyclicBarrier;
